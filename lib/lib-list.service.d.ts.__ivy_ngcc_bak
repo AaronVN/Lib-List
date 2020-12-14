@@ -1,0 +1,10 @@
+import { HttpClient } from '@angular/common/http';
+export declare class LibListService {
+    private http;
+    constructor(http: HttpClient);
+    private pets;
+    getList(statusType: string): any;
+    private InfoByStatus;
+    getPetsByStatus(status: string): import("rxjs").Observable<Object>;
+    ngOnDestroy(): void;
+}

@@ -1,0 +1,14 @@
+import { LibListService } from './lib-list.service';
+export declare class LibListComponent {
+    private lib;
+    showingAvailable: boolean;
+    showingPending: boolean;
+    showingSold: boolean;
+    empty: null;
+    constructor(lib: LibListService);
+    pets: any;
+    ngOnInit(): void;
+    setListTypeD(): void;
+    setListTypeP(): void;
+    setListTypeV(): void;
+}
